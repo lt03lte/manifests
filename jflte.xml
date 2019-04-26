@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+  
+  <!--<remote-project path="prebuilts/misc" name="platform/prebuilts/misc" />-->
+
+  <remove-project path="bootable/recovery" name="android_bootable_recovery" />
+
+  <project name="JDCTeam/android_device_samsung_jfltepie-private" path="device/samsung/jflte" remote="private" revision="custom-twrp" />
+  <!-- <project name="JDCTeam/android_prebuilts_misc" path="prebuilts/misc" remote="github" revision="cm-14.1" /> -->
+  <project name="JDCTeam/android_bootable_recovery" path="bootable/recovery" remote="github" revision="custom-twrp" groups="pdk-cw-fs"/>
+</manifest>
