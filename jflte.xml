@@ -16,7 +16,7 @@
 	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-7.1.x-gnueabi" />
  
   <!--kernel-->
-	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-pieForCommunity" remote="github" revision="opt-cm-16.0" />
+	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf-pieForCommunity" remote="github" revision="custom-twrp" />
 
   
 </manifest>
