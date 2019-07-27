@@ -8,7 +8,7 @@
 
   <remove-project path="bootable/recovery" name="android_bootable_recovery" />
 
-  <project name="JDCTeam/android_device_samsung_jflte" path="device/samsung/jflte" revision="custom-twrp-old" />
+  <project name="JDCTeam/android_device_samsung_jflte" path="device/samsung/jflte" revision="custom-twrp-old" remote="github" />
   <!-- <project name="JDCTeam/android_prebuilts_misc" path="prebuilts/misc" remote="github" revision="cm-14.1" /> -->
   <project name="JDCTeam/android_bootable_recovery" path="bootable/recovery" remote="github" revision="custom-twrp" groups="pdk-cw-fs"/>
 
