@@ -10,7 +10,7 @@
 
   <project name="JDCTeam/android_device_samsung_jflte" path="device/samsung/jflte" revision="custom-twrp" remote="github" />
   <!-- <project name="JDCTeam/android_prebuilts_misc" path="prebuilts/misc" remote="github" revision="cm-14.1" /> -->
-  <project name="JDCTeam/android_bootable_recovery" path="bootable/recovery" remote="github" revision="custom-twrp" groups="pdk-cw-fs"/>
+  <project name="JDCTeam/android_bootable_recovery" path="bootable/recovery" remote="github" revision="custom-twrp-9.0" groups="pdk-cw-fs"/>
 
   <!--Kernel Linaro Toolchain-->
 	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-7.1.x-gnueabi" name="B--B/Custom_Toolchains" groups="pdk,linux,arm" remote="github" revision="arm-linux-7.1.x-gnueabi" />
