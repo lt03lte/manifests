@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+  
+  <!--<remote-project path="prebuilts/misc" name="platform/prebuilts/misc" />-->
+
+  <project name="JDCTeam/android_device_samsung_jflte" path="device/samsung/jflte" revision="custom-twrp" remote="github" />
+  <!-- <project name="JDCTeam/android_prebuilts_misc" path="prebuilts/misc" remote="github" revision="cm-14.1" /> -->
+
+  <!--kernel-->
+	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="github" revision="opt-cm-17.1" />
+
+  
+</manifest>
