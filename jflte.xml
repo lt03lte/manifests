@@ -12,5 +12,7 @@
   <!--kernel-->
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="github" revision="opt-cm-17.1" />
 	<project path="external/busybox" name="TeamWin/android_external_busybox" remote="github" revision="android-9.0" />
+	<project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="github" revision="lineage-16.0" />
+ 
   
 </manifest>
