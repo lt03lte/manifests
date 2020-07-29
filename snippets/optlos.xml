@@ -8,7 +8,15 @@
 	<project path="kernel/samsung/jf" name="JDCTeam/android_kernel_samsung_jf" remote="jdc" />
   	<project path="device/samsung/jflte" name="JDCTeam/android_device_samsung_jflte" remote="jdc"/>
 
-	<project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="jdc">
+  	<project path="vendor/samsung/msm8974-common" name="lt03lte/android_vendor_samsung_msm8974-common" remote="lt03lte" />
+  	<project path="kernel/samsung/msm8974" name="lt03lte/android_kernel_samsung_msm8974" remote="lt03lte" />
+  	<project path="device/samsung/msm8974-common" name="lt03lte/android_device_samsung_msm8974-common" remote="lt03lte" />
+
+  	<project path="vendor/samsung/lt03lte" name="lt03lte/android_vendor_samsung_lt03lte" remote="lt03lte" />
+  	<project path="kernel/samsung/lt03lte" name="lt03lte/android_kernel_samsung_lt03lte" remote="lt03lte" />
+  	<project path="device/samsung/lt03lte" name="lt03lte/android_device_samsung_lt03lte" remote="lt03lte" />
+
+	<project path="vendor/jdc" name="lt03lte/android_vendor_jdc" remote="jdc">
 		<copyfile src="build.sh" dest="build.sh" />
 		<copyfile src="enablePS.sh" dest="enablePS.sh" />
 		<copyfile src="enablePerf.sh" dest="enablePerf.sh" />
@@ -67,7 +75,7 @@
 	
 	<!--our manifest-->
 	<remove-project name="LineageOS/android" path="android" />
-        <project path="android" name="JDCTeam/manifests" remote="jdc" />
+        <project path="android" name="lt03lte/manifests" remote="jdc" />
 	
 	<!--Projects left
 	 overlays/lineage, services/telephony,  system/core, fw/native, dalvik, 

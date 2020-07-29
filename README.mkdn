@@ -1,5 +1,5 @@
 
-Optimized LineageOS 17.1 for jflte
+Optimized LineageOS 17.1 for jflte and lt03lte
 ---------------
 (ex. Optimized CyanogenMod builds)
 
@@ -8,11 +8,11 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using our trees, use a command like this:
 
-    repo init -u git://github.com/JDCTeam/manifests.git -b opt-cm-17.1
+    repo init -u git://github.com/lt03lte/manifests.git -b opt-cm-17.1
 
 or
 
-    repo init --depth=1 -u git://github.com/JDCTeam/manifests.git -b opt-cm-17.1
+    repo init --depth=1 -u git://github.com/lt03lte/manifests.git -b opt-cm-17.1
 
 Then to sync up:
 
@@ -22,6 +22,10 @@ Building
 ---------------
 
 
-use our [custom build script](https://github.com/JDCTeam/android_vendor_jdc/blob/opt-cm-17.0/build.sh):
+use our [custom build script](https://github.com/lt03lte/android_vendor_jdc/blob/opt-cm-17.1/build.sh):
 
     . build.sh
+
+or
+
+    . build.sh lt03lte
